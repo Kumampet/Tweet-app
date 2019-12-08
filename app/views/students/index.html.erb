@@ -31,3 +31,9 @@
 <br>
 
 <%= link_to 'New Student', new_student_path %>
+
+<div></div>
+
+<% @students.each do |student| %>
+  <%= student.id %>
+<% end %>
